@@ -1,0 +1,126 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+  background:#1b1b2b;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px;
+  color:#1b1b1b;
+}
+
+
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.picss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.picss img {
+    border-radius: 15px;
+}
+
+
+.box-foot {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.foot-list ul li a {
+  color:white;
+  text-decoration: none;
+}
+
+.foot-list ul {
+  list-style-type:none;
+}
+
+
+.foot-list {
+  display: inline-block;
+  width: 33%;
+}
+
+.foot-last p {
+  display: inline-block;
+  width: 49%;
+
+}
+
+.foot-text2 {
+  text-align: right;
+}
+
+.foot-last {
+  background-color: #273443;
+}
+
+
+.box4 {
+  background-image: url("afro-lady.jpg");
+  padding-bottom: 300px;
+  padding-top: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+  box-shadow: 10px 5px rgb(195, 226, 236);
+}
+
+
+img {
+  box-shadow: 0 0 32px rgba(34, 5, 5, 0.52);
+}
+
+footer{
+  font-style: italic;
+}
+
+
+
+@media screen and {min-width: 480px){
+  #leftsidebar{width: 200px; float: left}
+  #main {margin-left: 216px;@media screen and {min-width: 480px){
+    #leftsidebar{width: 200px; float: left}
+    #main {margin-left: 216px;}

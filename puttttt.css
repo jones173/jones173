@@ -1,0 +1,44 @@
+.box{
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+
+}
+
+
+@media screen and (min-width:350px) {
+    .box{
+      padding: 35px;
+      background-color: red;
+      border-color: green;
+      font-size: 20px;
+      color: #fff;
+    }
+
+}
+
+@media screen and (min-width:550px) {
+  .box{
+    padding: 50px;
+    
+  }
+ 
+  
+}
+
+
+@media screen and (min-width:750px) {
+  .box {
+    background-color: green;
+    background-image: url(pot2.jpg);
+    
+}
+
+
+@media screen and (min-width:750px) {
+  .box {
+    background-color: brown;
+    background-image: url(q7.jpg);
+  }
+
+
